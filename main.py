@@ -59,7 +59,7 @@ if __name__ == '__main__':
     mainWidget = QDesktopWidget()
     wid = Ui_SysTray()
     wid.setupUi( mainWidget, app )
-    mainWidget.show()
+    #mainWidget.show()
 
     QApplication.setQuitOnLastWindowClosed(False)
 
